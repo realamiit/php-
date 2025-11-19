@@ -102,6 +102,18 @@
             echo "The value of true || false is:";
             echo var_dump(true || false); <br>   //||
             // and or xor && || !
+            $myVar = (true and false);
+            $myVar2 = (true && false);
+            $myVar3 = (true or false);
+            $myVar4 = (true || false);  
+            $myVar5 = (true xor false);
+            $myVar6 = (!true);
+            echo "<br>";
+            echo "The value of myVar is:";
+            echo var_dump($myVar);  //the var_dump shows boolean value of myVar
+              
+
+
 
 
 
