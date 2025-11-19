@@ -10,23 +10,21 @@
          This is my first pHp webpage; <br>
          <?php
             echo "Hello World and this is my first php programm!";
-
-
+            // end pHp
+            /*this is a 
+             Multiline 
+            comment 
+            
+            */
             ?>
             This is my first pHp webpage; <br>
-         <?php
-            echo "Hello World again!";
-
-        
-
-
-            ?>
-
 This is my first pHp webpage; <br>
          <?php
             echo "Hello WorldAlso again!";
 
-            
+            $variable = 33;
+            $variable2=44;
+            echo $variable + $variable2;
 
 
             ?>            </div>
