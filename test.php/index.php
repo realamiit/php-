@@ -137,11 +137,55 @@
                 //7. NULL
                 //8. Resource
 
-                
+
                 //String        
                 $var1 = "This is a string";
                 echo "The value of var1 is:";
                 echo var_dump($var1); <br>
+                //Integer
+                $var2 = 34;
+                echo "The value of var2 is:";
+                echo var_dump($var2); <br>  
+                //Float
+                $var3 = 34.5;
+
+                echo "The value of var3 is:";
+                echo var_dump($var3); <br>
+                //Boolean
+                $var4 = true;
+
+                echo "The value of var4 is:";
+                echo var_dump($var4); <br>
+                //Array
+                $var5 = array("apple", "banana", "orange");
+
+                echo "The value of var5 is:";
+                echo var_dump($var5); <br>
+                //Object
+                class Car {
+                    public $color;
+                    public $model;
+                    public function __construct($color, $model) {
+                        $this->color = $color;
+                        $this->model = $model;
+                    }
+                    public function message() {
+                        return "My car is a " . $this->color . " " . $this->model . "!";
+                    }
+                }
+                $var6 = new Car("black", "Toyota");
+                echo "The value of var6 is:";
+                echo var_dump($var6); <br>
+                //NULL
+                $var7 = NULL;
+
+                echo "The value of var7 is:";
+                echo var_dump($var7); <br>
+                //Resource
+                $var8 = fopen("test.txt", "r");
+                echo "The value of var8 is:";
+                echo var_dump($var8); <br>
+                    
                    
 
                ?>
